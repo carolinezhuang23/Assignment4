@@ -15,8 +15,6 @@ Students. Academic penalties up to and including an F in the course are likely.
 UT EID 1: cz7828
 """
 
-
-
 def length_of_longest_substring_n3(s):
     """
     Finds the length of the longest substring without repeating characters
@@ -39,9 +37,6 @@ def length_of_longest_substring_n3(s):
                 max_length = max(max_length, end - start +1)
     return max_length
 
-
-
-
 def length_of_longest_substring_n2(s):
     """
     Finds the length of the longest substring without repeating characters
@@ -63,9 +58,6 @@ def length_of_longest_substring_n2(s):
             if all(count <=1 for count in freq_list):
                 max_length = max(max_length, end - start +1)
     return max_length
-
-
-
 
 def length_of_longest_substring_n(s):
     """
