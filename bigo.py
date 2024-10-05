@@ -29,7 +29,7 @@ def length_of_longest_substring_n3(s):
     for start in range(n):
         for end in range(start, n):
             freq_list = [0] * 256
-            substr = s[start:end + 1]  
+            substr = s[start:end + 1]
             for char in substr:
                 char_index = ord(char)
                 freq_list[char_index] += 1
